@@ -1,0 +1,83 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+
+.container
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: white; */
+    /* padding: 20px 30px;
+    border-radius: 1rem;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    color : black; */
+    padding: 20px 30px;
+}
+
+.container_box{
+    padding: 20px 30px;
+    background : #f6f6f6;
+    border-radius: 1rem;
+    box-shadow: white 0px 3px 8px;
+    width: 35rem;
+    min-height: 35rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin : 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    color: rgba(0,0,0,0.7);
+
+}
+
+input{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    padding : 10px 20px;
+    background: none;
+}
+
+.container .container_box textarea{
+    margin-top : 30px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    padding : 10px 20px;
+    background: none;
+    resize: none;
+    /* color: rgba(0,0,0,0.7); */
+}
+
+.container .container_box button{
+    margin-top: 20px;
+    width : 5rem;
+    padding : 10px 0px;
+    background: #010f1c;
+    outline: none;
+    border : none;
+    color : #fff;
+}
+
+input::placeholder{
+    color : black !important;
+}
+textarea::placeholder{
+    color: black !important;
+}
